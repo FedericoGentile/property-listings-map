@@ -6,6 +6,20 @@
 ## Overview
 This Shiny application provides an interactive map to visualize property listings. Users can filter properties based on criteria like region, type, action, and more. The app displays detailed information and price trends for each property.
 
+## Data Description
+The application uses a CSV file named `houses.csv` containing detailed data about property listings. Key fields in the data include:
+- `Item_Name`: Name or title of the property.
+- `Price`: Listed price of the property.
+- `Size`: Size of the property in square meters.
+- `Number_of_Rooms`: Number of rooms in the property.
+- `Address`: Address of the property.
+- `Seller`: Name of the seller or agency.
+- `Tags`: Tags associated with the property (e.g., amenities, features).
+- `Image_URL`: URL to an image of the property.
+- `Page_Link`: URL to the property's listing page.
+- `Status`: Current status of the property (e.g., Available).
+- Other fields include geographic coordinates, dates, and normalized property details.
+
 ## Features
 - Interactive map to display property listings.
 - Filters for region, object type, action, price, size, and number of rooms.
